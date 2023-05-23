@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.body {
+    /* display: flex; */
+    width: 100%;
+    margin: 0 190px;
+    border-width: 1px;
+    border-left: solid;
+    border-right: solid;
+    border-left-color: orange;
+    border-right-color: orange;
+}
+
+nav {
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_btns, a{
+    text-decoration: none;
+    color: #B8BECD;
+    word-spacing: 35px;
+}
+
+.active_nav_btn {
+    color: black;
+}
+
+.registr_btn {
+    margin-left: 4vw;
+    word-spacing: 18px;
+}
+
+.nav_login {
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 8px;
+    padding: 8px 46px;
+}
+
+.nav_register {
+    color: white;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 8px;
+    padding: 8px 46px;
+}
